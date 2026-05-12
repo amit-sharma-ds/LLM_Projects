@@ -1,5 +1,5 @@
-import streamlit as 
-from dotenv import load_dot
+import streamlit as st
+from dotenv import load_dotenv
 import os
 import google.generativeai as genai
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound, VideoUnavailable
